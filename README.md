@@ -2,6 +2,11 @@
 
 A machine learning project to predict training fatigue and injury risk for competitive tennis players. This tool analyzes daily training metrics (tennis hours, gym hours, sleep, RPE) to estimate the likelihood of "near injury" or excessive fatigue.
 
+## Context
+
+I am a competitive tennis player, and I created this project to understand how my own training load, sleep, and perceived exertion relate to fatigue and near-injury days. The goal is to use data and machine learning to make smarter decisions about training, not just to train harder.
+
+
 ## Project Structure
 
 - `data.csv`: Synthetic daily training data.
@@ -51,3 +56,4 @@ Key features include:
 - **Recovery Index**: `Sleep Hours / RPE`
 
 *This is a demonstration project for educational purposes and should not replace professional medical advice.*
+*The current dataset (data.csv) is synthetic and for demonstration only. It is structured so I can later replace it with my own real training logs.*
